@@ -252,9 +252,13 @@ for_window [app_id="screen-tube"] fullscreen enable
 bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
-# KDE Connect
+# STARTUP APPS
+## KDE Connect
 exec --no-startup-id /usr/lib/kdeconnectd
 exec kdeconnect-indicator
+
+## Slack
+exec slack -u
 
 # Screenshot
 bindsym $mod+p exec grim -g "$(slurp)"
