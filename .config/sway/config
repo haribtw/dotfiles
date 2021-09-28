@@ -260,6 +260,9 @@ exec kdeconnect-indicator
 ## Slack
 exec slack -u
 
+## Open-lens
+exec swaymsg 'exec open-lens'
+
 # Screenshot
 bindsym $mod+p exec grim -g "$(slurp)"
 bindsym $mod+Shift+p exec  grim -g $(swaymsg -t get_tree | jq -j '.. | select(.type?) | select(.focused).rect | "\(.x),\(.y) \(.width)x\(.height)"')
