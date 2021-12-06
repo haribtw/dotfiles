@@ -261,7 +261,10 @@ exec kdeconnect-indicator
 exec slack -u
 
 ## Open-lens
-exec swaymsg 'exec open-lens'
+## exec swaymsg 'exec open-lens'
+
+## 1Password
+exec 1password --silent
 
 # Screenshot
 bindsym $mod+p exec grim -g "$(slurp)"
