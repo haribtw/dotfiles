@@ -27,6 +27,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Alias
+alias vim="nvim"
 alias ls="exa -aT -L 1"
 alias tree="exa -T"
 alias ...="cd ../.."
