@@ -13,8 +13,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Rust
-Plug 'neoclide/coc.nvim'
-Plug 'rust-lang/rust.vim'
+"Plug 'neoclide/coc.nvim'
+"Plug 'rust-lang/rust.vim'
 call plug#end()
 
 set termguicolors
